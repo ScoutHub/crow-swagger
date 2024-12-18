@@ -102,7 +102,7 @@ void construct_documentation(Docs *docs, const char* output_path)
         "<script>document.addEventListener('DOMContentLoaded',function(){const toggles=document.querySelectorAll('[data-toggle]');toggles.forEach((toggle)=>{toggle.addEventListener('click',function(){const targetId=toggle.getAttribute('data-toggle');const targetDiv=document.getElementById(targetId);if(targetDiv){targetDiv.classList.toggle('hidden');}});});});</script>"
         "</main>"
         "<footer class=\"p-8 text-center bg-blue-400 text-white\">"
-        "<p>Copyright © Thémis</p>"
+        "<p>Copyright © v 0.1 </p>"
         "</footer>"
         "</body>"
         "</html>";
